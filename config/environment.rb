@@ -20,6 +20,7 @@ Rails::Initializer.run do |config|
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
   config.gem "cucumber"
+  config.gem "webrat"
   config.gem "shoulda"
   config.gem "RedCloth", :lib => 'redcloth'
   config.gem "authlogic"
